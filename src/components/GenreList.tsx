@@ -36,7 +36,6 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
                 onClick={() => onSelectGenre(genre)}
                 fontSize="lg"
                 variant="link"
-                overflow="hidden"
               >
                 {genre.name}
               </Button>
